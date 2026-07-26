@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Deklin Murphy — Connect</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #000;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            min-height: 100vh;
+        }
+
+        /* HEADER */
+
+        header {
+            width: 100%;
+            padding: 28px 40px;
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            align-items: center;
+        }
+
+        header a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 12px;
+            letter-spacing: 1.5px;
+            font-weight: 400;
+        }
+
+        .collection {
+            justify-self: start;
+        }
+
+        .logo {
+            justify-self: center;
+            font-size: 15px;
+            letter-spacing: 2px;
+            font-weight: 500;
+        }
+
+        .connect {
+            justify-self: end;
+        }
+
+        /* MAIN CONTENT */
+
+        .connect-page {
+            max-width: 1100px;
+            margin: 80px auto 100px;
+            padding: 0 40px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 70px;
+        }
+
+        .intro h1 {
+            font-size: 38px;
+            font-weight: 400;
+            letter-spacing: -1px;
+            margin-bottom: 15px;
+        }
+
+        .intro p {
+            font-size: 16px;
+            font-weight: 300;
+            letter-spacing: 0.5px;
+        }
+
+        /* PORTRAIT */
+
+        .portrait {
+            width: 100%;
+            margin-bottom: 80px;
+        }
+
+        .portrait img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+
+        /* ABOUT */
+
+        .about {
+            max-width: 750px;
+            margin: 0 auto 80px;
+        }
+
+        .about h2 {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+
+        .about p {
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 300;
+            color: #fff;
+        }
+
+        /* CONTACT */
+
+        .contact {
+            max-width: 750px;
+            margin: 0 auto;
+        }
+
+        .contact h2 {
+            font-size: 24px;
+            font-weight: 400;
+            margin-bottom: 25px;
+        }
+
+        .contact p {
+            font-size: 16px;
+            line-height: 1.8;
+            font-weight: 300;
+        }
+
+        .contact a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 1px solid #fff;
+        }
+
+        .contact a:hover {
+            opacity: 0.6;
+        }
+
+        .or {
+            margin: 25px 0;
+        }
+
+        /* FORM */
+
+        form {
+            margin-top: 35px;
+        }
+
+        .form-group {
+            margin-bottom: 25px;
+        }
+
+        label {
+            display: block;
+            font-size: 12px;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #555;
+            color: #fff;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            padding: 12px 0;
+            outline: none;
+        }
+
+        input:focus,
+        textarea:focus {
+            border-bottom: 1px solid #fff;
+        }
+
+        textarea {
+            min-height: 120px;
+            resize: vertical;
+        }
+
+        button {
+            background: #fff;
+            color: #000;
+            border: none;
+            padding: 14px 28px;
+            font-size: 12px;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            opacity: 0.75;
+        }
+
+        /* MOBILE */
+
+        @media (max-width: 700px) {
+
+            header {
+                padding: 24px 20px;
+            }
+
+            header a {
+                font-size: 10px;
+                letter-spacing: 1px;
+            }
+
+            .logo {
+                font-size: 12px;
+            }
+
+            .connect-page {
+                margin-top: 50px;
+                padding: 0 20px;
+            }
+
+            .intro h1 {
+                font-size: 28px;
+            }
+
+            .intro p {
+                font-size: 14px;
+                line-height: 1.6;
+            }
+
+            .portrait {
+                margin-bottom: 60px;
+            }
+
+            .about,
+            .contact {
+                margin-bottom: 60px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html" class="collection">
+            COLLECTION
+        </a>
+
+        <div class="logo">
+            DEKLIN MURPHY
+        </div>
+
+        <a href="connect.html" class="connect">
+            CONNECT
+        </a>
+
+    </header>
+
+
+    <main class="connect-page">
+
+        <section class="intro">
+
+            <h1>Deklin Murphy — Designer</h1>
+
+            <p>
+                Specializing in Brand Identity and Visual Storytelling
+            </p>
+
+        </section>
+
+
+        <section class="portrait">
+
+            <!-- Replace this filename with your actual portrait image -->
+            <img src="portrait.jpg" alt="Deklin Murphy">
+
+        </section>
+
+
+        <section class="about">
+
+            <h2>About the Artist</h2>
+
+            <p>
+                Deklin Murphy is a digital artist and aspiring fashion designer native to Chicago, IL.
+                Deklin has over 7 years of graphic design experience as well as a minor degree in art
+                and design from the College of Fine and Applied Arts at the University of Illinois
+                Urbana-Champaign. In 2023, Deklin graduated with high honors from the Gies College of
+                Business, achieving his B.S. degree in marketing.
+            </p>
+
+        </section>
+
+
+        <section class="contact">
+
+            <h2>Inquire at</h2>
+
+            <p>
+                <a href="mailto:deklinm31@gmail.com">
+                    deklinm31@gmail.com
+                </a>
+            </p>
+
+            <p class="or">
+                Or
+            </p>
+
+            <p>
+                Submit a message below
+            </p>
+
+
+            <form action="#" method="POST">
+
+                <div class="form-group">
+                    <label for="name">NAME</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">MESSAGE</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+
+                <button type="submit">
+                    SEND MESSAGE
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
